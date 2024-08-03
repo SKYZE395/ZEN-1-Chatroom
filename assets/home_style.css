@@ -1,0 +1,95 @@
+html,body{
+    margin:0;
+    padding:0;
+    background-color:black ;
+}
+  
+img{
+    height:100px;
+    width:100px;
+    filter: invert(100%);
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white; 
+}
+
+body .header{
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Unbounded', cursive;
+    color: white;
+    float:right;
+    margin:25px;
+}
+
+.time{
+    display: flex;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Unbounded', cursive;
+    color:white;
+    margin-top: 10%;
+    margin-left: 100px;
+}
+
+body .logout{
+    color:white; 
+    float:right;
+    margin: 25px;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Unbounded', cursive;
+}
+
+body .welcome{
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Unbounded', cursive;
+    color: white;
+    float:left;
+    z-index: 0;
+}
+
+body .welcome .greeting{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left:17px;
+}
+
+body .box{
+    color:white;
+    background-color: black;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Unbounded', cursive;
+}
+
+button{
+    color:white;
+    background-color: black;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Unbounded', cursive;
+    border-radius: 20px;
+    border-color: black;
+    color: aliceblue;
+    transition: background-color 0.4s ease;
+}
+
+.join{
+    color:white;
+    position: relative;
+    top:50%;
+    width: 50%;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Unbounded', cursive;
+}
+
+.join button{
+    font-size: 20px;
+}

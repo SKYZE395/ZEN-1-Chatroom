@@ -1,0 +1,127 @@
+body {
+    margin: 0 auto;
+    /* max-width: 800px; */
+    padding: 0 20px;
+    background-color: black;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Unbounded', cursive;
+}
+.container {
+  border: 2px solid #dedede;
+  background-color: #00000062;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+h2{
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Unbounded', cursive;
+    color:white;
+}
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+  color: white;
+}
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+  color: white;
+}
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+  color: white;
+}
+.time-right {
+  float: right;
+  color: #aaa;
+}
+.time-left {
+  float: left;
+  color: #999;
+}
+.anyClass{
+    height:550px;
+    overflow-y:auto;
+    color: white;
+}
+.msg{
+    display: flex;
+    float:left;
+}
+img{
+    height:100px;
+    width:100px;
+    filter: invert(100%);
+}
+.msg button{
+    margin-left:20px;
+}
+.err{
+  color:white;
+}
+
+.top .time1{
+    color:white;
+    margin-left:10px
+}
+input{
+    background-color: #999;
+    width: 75vw;
+    color:black;
+    border-radius: 20px;
+    font-size: 22px;
+}
+
+.conatiner .anyClass{
+  padding: 120px;
+  margin-right: 52px;
+}
+button{
+    color:white;
+    background-color: black;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Unbounded', cursive;
+    border-radius: 20px;
+    font-size: 20px;
+    border-color: black;
+    color: aliceblue;
+    transition: background-color 0.4s ease;
+}
+
+body .header{
+  font-family: 'Archivo', sans-serif;
+  font-family: 'Unbounded', cursive;
+  color: white;
+  float:right;
+  margin:25px;
+}
+
+body .logout{
+  color:white; 
+  float:right;
+  margin: 25px;
+  font-family: 'Archivo', sans-serif;
+  font-family: 'Unbounded', cursive;
+}
+
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white; 
+}

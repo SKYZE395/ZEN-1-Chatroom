@@ -1,0 +1,125 @@
+html,body{
+    margin:0;
+    padding:0;
+    background-color:black ;
+}
+  
+img{
+    height:100px;
+    width:100px;
+    filter: invert(100%);
+}
+
+h1{
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Unbounded', cursive;
+    color: white;
+    font-size: 70px;
+}
+
+.head{
+    margin-left: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20%;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white; 
+}
+
+body .header{
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Unbounded', cursive;
+    color: white;
+    float:right;
+    margin:25px;
+}
+
+.time{
+    position: relative;
+    top:15%;
+    width:100px;
+    margin-right: 50%;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Unbounded', cursive;
+    color:white;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+body .logout{
+    color:white; 
+    float:right;
+    margin: 25px;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Unbounded', cursive;
+}
+
+body .welcome{
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Unbounded', cursive;
+    color: white;
+    float:left;
+    z-index: 0;
+}
+
+body .welcome .greeting{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left:17px;
+}
+
+body .box{
+    color:white;
+    background-color: black;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Unbounded', cursive;
+}
+
+button{
+    color:white;
+    background-color: black;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Unbounded', cursive;
+    border-radius: 20px;
+    border-color: black;
+    color: aliceblue;
+    transition: background-color 0.4s ease;
+}
+
+.security{
+    width:21px;
+    height:21px;
+}
+
+label{
+    font-size: 20px;
+}
+
+.room_pwd{
+    margin-top: 5px;
+    font-size: 20px;
+    width: 300px;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Unbounded', cursive;
+}
+
+#roomlist{
+    margin-left: 20px;
+    overflow-y: scroll;
+    height:100px;
+    width:300px;
+    color:white;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Unbounded', cursive;
+}

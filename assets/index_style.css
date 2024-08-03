@@ -1,0 +1,95 @@
+html,body{
+    margin:0;
+    padding:0;
+    background-color:black ;
+}
+
+img{
+    height:150px;
+    width:150px;
+    filter: invert(100%);
+}
+
+body .container{
+    color: white;
+    font-size: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.container .form{
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Unbounded', cursive;
+    color: white;
+    margin-top: 140px;
+}
+body .head{
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Unbounded', cursive;
+    border-radius: 20px;
+    border-color: black;
+    color: aliceblue;
+    background-color: black;
+    display: flex;
+    margin-top: 20px;
+    margin-left: auto; 
+    margin-right: auto;
+    font-size: 20px;
+    transition: background-color 0.4s ease;
+}
+
+button :hover{
+    background-color: grey;
+    cursor:pointer;
+}
+
+#msg{
+    color:white;
+    display:flex;
+    justify-content: center;
+}
+
+
+body .container .form form button{
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Unbounded', cursive;
+    border-radius: 20px;
+    border-color: black;
+    color: aliceblue;
+    display: flex;
+    margin-top: 20px;
+    margin-left: auto; 
+    margin-right: auto;
+    font-size:20px;
+    background-color: black;
+    transition: background-color 0.4s ease;
+}
+
+body .container .form form input{
+    height:30px;
+    font-size: 21px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body .container .form form button:hover{
+    background-color: grey;
+    cursor:pointer;
+}
+input{
+    /*margin-bottom: 15px;*/
+    color:black
+}
+
+input:hover{
+    cursor:pointer;
+}
